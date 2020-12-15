@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "jsx": "react",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "strict": true,
+        "paths": {
+            "/assets/*": ["src/renderer/assets/*"],
+            "/components/*": ["src/renderer/components/*"],
+            "/utils/*": ["src/renderer/utils/*"],
+            "/views/*": ["src/renderer/views/*"]
+        },
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*", "typings/*.d.ts"]
+}
